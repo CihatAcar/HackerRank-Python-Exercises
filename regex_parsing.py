@@ -1,9 +1,9 @@
 """
 Let's dive into the interesting topic of regular expressions! You are given some input, and you are required to check whether they are valid mobile numbers.
-A valid mobile number is a ten digit number starting with a 7, 8  or9 .
+A valid mobile number is a ten-digit number starting with a 7, 8  or9 .
 
 Concept:
-A valid mobile number is a ten digit number starting with a 7, 8  or 9 .
+A valid mobile number is a ten-digit number starting with a 7, 8  or 9 .
 
 Input Format:
 The first line contains an integer N, the number of inputs.
@@ -27,8 +27,6 @@ NO
 """
 
 import re
-
-"This function is for checking the pattern of given input."
 
 
 def is_valid_mobile_number(number):
