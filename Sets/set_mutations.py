@@ -78,6 +78,7 @@ After the fourth operation, ( difference_update operation), we get:
 set A = ([1,2,3,4,5,6,8,9])
 The sum of elements in set A after these operations is 38.
 """
+num_elements = int(input())
 A = set(map(int, input().split()))
 num_other_sets = int(input())
 
