@@ -52,21 +52,6 @@ Sample Output
 82.0
 90.0
 85.5
-Explanation
-Marks obtained by student 1:
-Average marks of student 1:
-
-Marks obtained by student 2:
-Average marks of student 2:
-
-Marks obtained by student 3:
-Average marks of student 3:
-
-Marks obtained by student 4:
-Average marks of student 4:
-
-Marks obtained by student 5:
-Average marks of student 5:
 
 """
 N, X = map(int, input().split())
