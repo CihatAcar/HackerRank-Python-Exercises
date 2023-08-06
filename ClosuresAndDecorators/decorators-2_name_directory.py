@@ -32,13 +32,12 @@ Mr. Robert Bustle
 Concept
 For sorting a nested list based on some parameter, you can use the itemgetter library.
 """
-import operator
 
 
 def person_lister(f):
     def inner(people):
         # complete the function
-        return map(f, sorted(people, key=operator.itemgetter(2)))
+        return map(f, sorted(people, key=lambda x: int(x[2])))
 
     return inner
 
