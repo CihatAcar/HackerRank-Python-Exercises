@@ -50,7 +50,7 @@ import numpy
 
 N, M = map(int, input().split())
 array = []
-for i in range(N):
+for _ in range(N):
     array.append(list(map(int, input().split())))
 
 array = numpy.array(array)
